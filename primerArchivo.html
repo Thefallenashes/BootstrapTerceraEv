@@ -14,31 +14,41 @@
 
 <body>
     <div class="sticky-top container-fluid bg-dark">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fw-bold text-uppercase ">
-        <div class="container-fluid">
-            <a href="" class="navbar-brand">
-                <img src="" alt="" style="width: 40px;"class="rounden-pill">
-            </a>
-            <ul class="navbar-nav me-auto">
-                <li class="nav-item text-white">
-                    <a href="" class="nav-link active">prueba</a>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fw-bold text-uppercase ">
+
+            <a href="" class="navbar-brand"><img src="" alt="" style="width: 60px;" class="rounden-pill"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <li class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Descubre</a>
+                    <ul class="dropdown-menu">
+                        <li> <a class="dropdown-item" href="">Link</a> </li>
+                        <li> <a class="dropdown-item" href="">Link</a> </li>
+                        <li> <a class="dropdown-item" href="">Link</a> </li>
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">prueba</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">prueba</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link disabled">prueba</a>
-                </li>
-            </ul>
-            <form class="d-flex" >
-                <input type="text" class="form-control" placeholder="Search">
-                <button class="btn btn-primary" type="button">Search</button>
-            </form>
-        </div>
-    </nav>
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item text-white">
+                        <a href="" class="nav-link active">prueba</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">prueba</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">prueba</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link disabled">prueba</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+            </div>
+        </nav>
     </div>
 </body>
 
